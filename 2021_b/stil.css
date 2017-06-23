@@ -1,8 +1,3 @@
-img {
-	height:1000px;
-	width:100%;
-	backgroun-size:100% 100%;
-}
 .left {
 	float:left;
 	clear:both;
@@ -15,8 +10,8 @@ img {
 }
 		
 .picture {
-	height:350px;
-	width:400px;
+	height:850px;
+	width:100%;
 	border-style:solid;
 }
 #colorback {
