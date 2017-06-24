@@ -9,6 +9,9 @@
 	function buton() {
 	document.getElementById('butt').style.display = 'block';
 	}
+	function nobuton() {
+	document.getElementById('butt').style.display = 'none';
+	}
 </script>
 <style>
 	.button{
@@ -39,7 +42,10 @@
 	<p class="fonttext">Една бабичка тръгнала на гроба наа мъжа си, но забравила къде е парцелът. По едно време видяла гробаря, който бил подпийнал.- Момче, кажи ми къде е парцел 46?
 	Той я изгледал и казал: - Вие като си не помните местата, що ставате и само се разхождате...</p>
 </div>
-<button type="button" onclick="buton()" class="button">Цъкни :)!</button>
+<div class="left">
+	<p><button type="button" onclick="buton()" class="button">Цъкни :)!</button></p>
+	<p><button type="button" onclick="nobuton()" class="button">Скрий.</button></p>
+</div>
 </body> 
 </html>
 	
